@@ -1,0 +1,4 @@
+server:
+  port: 8081 #端口号由默认的8080改成8081
+  servlet:
+    context-path: /helloworld #原本的上下文环境加了一个helloworld

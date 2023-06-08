@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-demo.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-actuator/spring-boot-demo-actuator.iml" filepath="$PROJECT_DIR$/spring-boot-demo-actuator/spring-boot-demo-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin.iml" filepath="$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin-client/spring-boot-demo-admin-client.iml" filepath="$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin-client/spring-boot-demo-admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin-server/spring-boot-demo-admin-server.iml" filepath="$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin-server/spring-boot-demo-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-helloworld/spring-boot-demo-helloworld.iml" filepath="$PROJECT_DIR$/spring-boot-demo-helloworld/spring-boot-demo-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-log-aop/spring-boot-demo-log-aop.iml" filepath="$PROJECT_DIR$/spring-boot-demo-log-aop/spring-boot-demo-log-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-logback/spring-boot-demo-logback.iml" filepath="$PROJECT_DIR$/spring-boot-demo-logback/spring-boot-demo-logback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-orm-jdbctemplate/spring-boot-demo-orm-jdbctemplate.iml" filepath="$PROJECT_DIR$/spring-boot-demo-orm-jdbctemplate/spring-boot-demo-orm-jdbctemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-orm-mybatis/spring-boot-demo-orm-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-demo-orm-mybatis/spring-boot-demo-orm-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-orm-mybatis-plus/spring-boot-demo-orm-mybatis-plus.iml" filepath="$PROJECT_DIR$/spring-boot-demo-orm-mybatis-plus/spring-boot-demo-orm-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-properties/spring-boot-demo-properties.iml" filepath="$PROJECT_DIR$/spring-boot-demo-properties/spring-boot-demo-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-swagger/spring-boot-demo-swagger.iml" filepath="$PROJECT_DIR$/spring-boot-demo-swagger/spring-boot-demo-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-template-thymeleaf/spring-boot-demo-template-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-demo-template-thymeleaf/spring-boot-demo-template-thymeleaf.iml" />
+    </modules>
+  </component>
+</project>

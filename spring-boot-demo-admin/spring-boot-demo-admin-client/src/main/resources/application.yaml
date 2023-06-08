@@ -1,0 +1,30 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /adminClient
+
+spring:
+  application:
+    # Spring Boot Admin展示的客户端项目名，不设置，会使用自动生成的随机id
+    name: spring-boot-demo-admin-client
+  boot:
+    admin:
+      client:
+        url: http://localhost:8000/
+        instance:
+          metedata:
+            # 客户端端点信息的安全认证信息
+            user.name: ${spring.security.user.name}
+            user.password: ${spring.security.user.password}
+  security:
+    user:
+      name: ycb
+      password: 123456
+management:
+  endpoint:
+    health:
+      show-components: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'

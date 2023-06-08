@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /mybatis
+#数据库信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring-boot-demo?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    username: root
+    password: hsp
+
+#mybatis文件的地址
+mybatis:
+  type-aliases-package: com.ycb.demo.bean
+  # 配置MyBatis的xml配置文件路径
+  mapper-locations: classpath:mappers/*.xml

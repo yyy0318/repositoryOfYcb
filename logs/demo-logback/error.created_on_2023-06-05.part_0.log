@@ -1,0 +1,6 @@
+2023-06-05 11:03:18.307 ERROR 10372 --- [main] c.y.d.SpringBootDemoLogbackApplication   SpringBootDemoLogbackApplication.java:23: Spring boot启动初始化125个Bean
+2023-06-05 11:03:18.307 ERROR 10372 --- [main] c.y.d.SpringBootDemoLogbackApplication   SpringBootDemoLogbackApplication.java:28: [SpringBootDemoLogbackApplication]启动异常：
+
+java.lang.ArithmeticException: / by zero
+	at com.ycb.demo.SpringBootDemoLogbackApplication.main(SpringBootDemoLogbackApplication.java:26)
+

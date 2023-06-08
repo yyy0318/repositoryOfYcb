@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /thymeleaf
+
+#thymeleaf的配置说明
+spring:
+  thymeleaf:
+    # 设置thymeleaf路径默认为src/main/resources/templates
+    prefix:classpath: /templates/
+    mode: HTML
+    encoding: UTF-8 #设置编码
+    servlet:
+      content-type: text/html
+    cache: false #是否开启缓存默认为true

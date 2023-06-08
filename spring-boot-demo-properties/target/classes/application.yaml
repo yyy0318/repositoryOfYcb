@@ -1,0 +1,9 @@
+# application.properties：默认配置
+server:
+  port: 8081
+  servlet:
+    context-path: /properties
+
+spring:
+  profiles:
+    active: dev #环境配置
